@@ -1,0 +1,150 @@
+.voices {
+    background: #FCFCFC;
+}
+
+.main {
+    padding: 30px 0;
+}
+
+.container {
+    display: block;
+    background: none;
+}
+
+.page__title h1 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.page__breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.voices__breadcrumbs {
+    width: 100%;
+    max-width: 284px;
+}
+
+.page__breadcrumbs-item:not(:first-child) {
+    margin-top: 12px;
+}
+
+.voices__title {
+    margin-top: 24px;   
+}
+
+.voices__progressbar-section {
+    position: sticky;
+    top: 0;
+    padding: 32px 0 20px;
+    z-index: 999;
+    background: #FCFCFC;
+}
+
+.progress-translate__wrapper {
+    max-width: 1160px;
+}
+
+.voices__progressbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    color: #282828;
+}
+
+.voices__progressbar span {
+    display: inline;
+    opacity: 0.45;
+}
+
+.voices__progressbar .praise {
+    right: 57px;
+    top: -9px;
+}
+
+.voices__progressbar-line {
+    margin-top: 14px;
+}
+
+.voices__translate-button {
+    margin-top: 16px;
+}
+
+.voices__voices-grid {
+    display: grid;
+    gap: 20px;
+    /* grid-template-columns: 300px; */
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.voices-grid__item {
+    max-width: 100%;
+}
+
+.voices-grid__item .player {
+    max-width: 100%;
+}
+
+.voices-grid__item .player .progress {
+    width: calc(100% - 75px);
+}
+
+.voices-grid__item .voice__bottom {
+    max-width: 251px;
+}
+
+@media (min-width: 768px) {
+
+    .main {
+        padding: 100px 0 54px;
+    }
+
+    .voices__breadcrumbs {
+        max-width: 100%;
+    }
+
+    .page__breadcrumbs-item:not(:first-child) {
+        margin-top: 0;
+        margin-left: 12px;
+    }
+
+    .voices__progressbar-section {
+        padding: 52px 0 33px;
+    }
+
+    .voices__voices-grid {
+        gap: 40px;
+        grid-template-columns: 300px 300px;
+    }
+
+}
+
+@media (min-width: 1130px) {
+
+    .page__title h1 {
+        font-size: 40px;
+    }
+
+    .voices__progressbar span {
+        font-size: 16px;
+    }
+
+    .voices__voices-grid {
+        grid-template-columns: 260px 260px 260px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .voices__voices-grid {
+        grid-template-columns: 260px 260px 260px 260px;
+    }
+    
+}

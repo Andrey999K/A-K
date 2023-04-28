@@ -1,0 +1,40 @@
+body, form, input, button, div {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--black);
+}
+
+.autorization .container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.autorization__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.autorization__input {
+    margin-bottom: 10px;
+}
+
+.autorization__button {
+    font-size: 20px;
+    padding: 14px;
+    border-radius: 14px;
+    border: 1px solid var(--orange);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.autorization__button:hover {
+    color: var(--orange);
+}

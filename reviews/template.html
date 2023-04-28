@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{TITLE}</title>
+    <link rel="stylesheet" href="../css/libs/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/templates-reviews.css">
+    <link rel="canonical" href="https://usa-ak.com/var2">
+    <link rel="shortcut icon" href="https://static.tildacdn.com/tild3436-3436-4462-b663-666663396533/favicon.ico" type="image/x-icon">
+    <script src="../js/libs/swiper-bundle.min.js" defer></script>
+    <script src="../js/masonry.min.js" defer></script>
+    <script src="../js/masonry-grid.js" defer></script>
+    <script src="./js/main.js" defer></script>
+</head>
+<body class="page reviews template">
+
+    <header class="page-header">
+        {HEADER}
+        <div class="back page-header__bottom">
+            <div class="container">
+                <div class="back__content">
+                    <a class="back-button" href="index.php">
+                        <img src="./img/back.svg" alt="back" class="back__icon">
+                        <span class="back__text">Вернуться</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="page-banner">
+            <div class="container">
+                <div class="page-banner__content">
+                    <div class="page-banner__content-info">
+                        <span class="category">Отзывы</span>
+                        <h1 class="main-title">A&K reviews</h1>
+                        <h2 class="page-banner__title">{BANNER_TITLE}</h2>
+                    </div>
+                    {BANNER_IMAGE}
+                    <div class="section-reviews__quantity page-banner__quantity">
+                        <span class="reviews-quantity-number">{COUNT_REVIEWS}</span>
+                        <span class="reviews-simple-text">отзывов</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews-cards">
+            <div class="container">
+                <div class="reviews-cards__content">
+                    <div class="reviews-cards__top">
+                        {PAGE_PAGINATION}
+                    </div>
+                    <div style="--swiper-navigation-color: #B4B4B4;
+                                --swiper-pagination-color: #B4B4B4"
+                        class="swiper mySwiper hidden">
+                        <button class="slider__close">
+                            <svg class="slider__close-icon" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.37496 1.01839C3.06062 0.714793 2.63962 0.546803 2.20262 0.5506C1.76563 0.554397 1.34761 0.729679 1.0386 1.03869C0.729582 1.34771 0.5543 1.76573 0.550502 2.20272C0.546705 2.63972 0.714695 3.06072 1.01829 3.37506L10.6433 13.0001L1.01663 22.6251C0.857442 22.7788 0.730471 22.9627 0.643123 23.1661C0.555775 23.3694 0.509798 23.5881 0.507875 23.8094C0.505952 24.0307 0.548122 24.2502 0.631923 24.455C0.715725 24.6598 0.83948 24.8459 0.995968 25.0024C1.15246 25.1589 1.33854 25.2826 1.54337 25.3664C1.7482 25.4502 1.96766 25.4924 2.18896 25.4905C2.41026 25.4886 2.62896 25.4426 2.8323 25.3552C3.03564 25.2679 3.21955 25.1409 3.37329 24.9817L13 15.3567L22.625 24.9817C22.9393 25.2853 23.3603 25.4533 23.7973 25.4495C24.2343 25.4457 24.6523 25.2704 24.9613 24.9614C25.2703 24.6524 25.4456 24.2344 25.4494 23.7974C25.4532 23.3604 25.2852 22.9394 24.9816 22.6251L15.3566 13.0001L24.9816 3.37506C25.2852 3.06072 25.4532 2.63972 25.4494 2.20272C25.4456 1.76573 25.2703 1.34771 24.9613 1.03869C24.6523 0.729679 24.2343 0.554397 23.7973 0.5506C23.3603 0.546803 22.9393 0.714793 22.625 1.01839L13 10.6434L3.37496 1.01672V1.01839Z"/>
+                            </svg>
+                        </button>
+                        <ul class="reviews-cards__grid grid swiper-wrapper">
+                            {REVIEWS}
+                        </ul>
+                        <div class="swiper-button-next slider__button"></div>
+                        <div class="swiper-button-prev slider__button"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="reviews-cards__bottom">
+                        {PAGE_PAGINATION}
+                        <a href="index.php" class="reviews-cards__other-review-link">Отзывы о других услугах ➞</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <script type="module">
+            var swiper = new Swiper(".mySwiper", {
+                zoom: true,
+                navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+                clickable: true,
+                },
+            });
+        </script> -->
+    </main>
+</body>
+</html>
