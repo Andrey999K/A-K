@@ -2,7 +2,7 @@
 
 Демо страницы reviews: https://andrey999k.github.io/A-K-page-reviews/  
   
-[![Watch the video](https://i9.ytimg.com/vi_webp/nDQZTHg3AOo/mq2.webp)](https://www.youtube.com/watch?v=nDQZTHg3AOo)
+[![Watch the video](https://i9.ytimg.com/vi_webp/nDQZTHg3AOo/mq2.webp)](https://i9.ytimg.com/vi_webp/nDQZTHg3AOo/mq2.webp?sqp=CIyGsaIG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEkgXyhlMA8=&rs=AOn4CLBAOxYII-ZZCX9hLUDMNQ2w0HxQhg)
   
 Демо страницы voices: https://andrey999k.github.io/A-K-page-voices/  
 
