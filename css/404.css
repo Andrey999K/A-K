@@ -1,0 +1,10 @@
+.page-not-found>.container {
+    position: absolute;
+    height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    z-index: -1;
+}
